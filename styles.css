@@ -1,0 +1,152 @@
+:root {
+    --title: #fffcf9;
+    --subtitle: #b3b3b3;
+    --bg-button: #e9e6e3;
+    --background: linear-gradient(43deg, #102d71 0%, #000000 52%, #c12a23 100%);
+}
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw; height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: var(--background);
+}
+header .title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+header .title h1{
+    color: var(--title);
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 60px;
+}
+header .title img{
+    width: 88px;
+    height: 63px;
+}
+header select{
+    width: 100px;
+    padding: 5px;
+    border-radius: 5px;
+    background: var(--bg-button);
+    text-align: center;
+    outline: none;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    color: black;
+}
+header select:hover{
+    cursor: pointer;
+}
+header select option{
+    text-align: center;
+}
+div.filmes{
+    width: 628px;
+    height: 320;
+
+    display: none;
+    justify-content: center;
+
+    margin-top: 30px;
+}
+div.filmes .img-mv{
+    width: 180px;
+    height: 250px;
+}
+div.filmes .content{
+    margin-left: 34px;
+
+    font-family: 'Poppins', sans-serif;
+}
+div.filmes .content h1.title-mv{
+    max-width: 300px;
+    max-height: 40px;
+
+    color: var(--title);
+
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+}
+div.filmes .content p.description-mv{
+    max-width: 400px;
+    max-height: 400px;
+
+    margin-top: 19px;
+
+    color: var(--subtitle);
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    margin-top: 30px;
+}
+main button{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 180px;
+    height: 45px;
+
+    border-radius: 5px;
+
+    background: var(--bg-button);
+
+    transition: .8s;
+}
+main button:hover{
+    transform: scale(1.15);
+    cursor: pointer;
+}
+main button img{
+    width: 35px;
+    height: 25px;
+    display: inline-block;
+}
+main button p{
+    width: 98px;
+    height: 17px;
+
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 12px;
+
+    line-height: 18px;
+    color: black;
+    margin-left: 17px;
+}
+main p.description{
+    width: 381px;
+    margin-top: 26px;
+
+    color: var(--subtitle);
+
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+
+    line-height: 21px;
+    text-align: center;
+}
+

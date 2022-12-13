@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="shortcut icon" href="/assets/favico/favicon.ico" type="image/x-icon"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+    <title>Rocketflix</title>
+  </head>
+  <body>
+    <header>
+      <div class="title">
+        <img src="./assets/shuffle.svg" alt="Icone de aleatoridade" />
+        <h1 class="title">Não sabe o que assistir?</h1>
+        <select name="idioma" id="idioma">
+          <option value="en" selected >Inglês</option>
+          <option value="pt">Português</option>
+        </select>
+      </div>
+    </header>
+    <div class="filmes" id="filmes">
+      <img src="" class="img-mv" id="img-mv">
+      <div class="content">
+        <h1 class="title-mv"></h1>
+        <p class="description-mv"></p>  
+      </div>
+    </div>
+    <main>
+      <button class="button"><img src="./assets/shuffle.svg" alt="Icone de aleatoridade"><p class="p-bt">Encontrar filme</p></button>
+      <p class="description">Clique em "Encontrar filme" que traremos informações de algum filme para você assistir hoje.</p>
+    </main>
+    <script type="module" src="main.js"></script>
+  </body>
+</html>
